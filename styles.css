@@ -1,0 +1,160 @@
+body{
+    margin:0;
+    
+}
+.navbar{
+    position:absolute;
+    right:30px;
+    top:30px;
+}
+.container {
+    background-color: #E4F9F5;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom:100px;
+}
+.section1, .section2, .section3 {
+    text-align: left;
+}
+.firstimg{
+    border-radius: 100%;
+    margin:100px auto ;
+
+}
+h1,h2{
+    font-family: 'Merriweather', serif;
+    color:#66BFBF;
+}
+.middlecontainer {
+    display: grid;
+    grid-template-columns: 200px 500px 200px;
+    
+    padding: 10px;
+    margin:20px;
+}
+section {
+    width: 30%;
+    margin-bottom: 20px;
+}
+p{
+    color: #2E4F4F;
+}
+footer{
+    background-color: #66BFBF;
+    
+    padding: 20px;
+    text-align: center;   
+}
+.copyright{
+    margin-top:40px;
+    color:#EAF6F6;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+nav a {
+    text-decoration: none;
+    color:#11999E;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+footer nav {
+    position:absolute;
+    right:475px;
+
+}
+nav a:hover{
+    color:#0A4D68;
+}
+.mains {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+main section {
+    text-align: left;
+
+}
+.resumeMain {
+    display: grid;
+    grid-template-columns: 200px 500px 200px;
+    gap: 20px;
+    padding: 20px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 100px;
+    padding: 20px;
+    background-color:#E4F9F5;
+}
+.cooking, .reading, .afrobeats {
+    margin-bottom: 20px;
+}
+
+.books,.cookingimg {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+.forms {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    
+    color: #2E4F4F;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) {
+    .middlecontainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .mains {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .resumeMain {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .forms {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
