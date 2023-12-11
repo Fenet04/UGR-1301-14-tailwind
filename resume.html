@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="Hobbies.html" class="nav__link">Hobbies</a></li>
+                <li class="nav__item"><a href="Travel.html" class="nav__link">Travel</a></li>
+                <li class="nav__item"><a href="Resume.html" class="nav__link">Resume</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contact_me</a></li>
+            </ul>
+        </nav>
+        </div>
+        <a href="javascript:void(0);" class="nav-icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </div>
+    <header class="header">
+        <h1 class="header__title">Fenet's Resume</h1>
+    </header>
+
+    <main class="main resumeMain">
+        <section class="section">
+            <h2 class="section__title">Education</h2>
+            <ul class="section__list">
+                <li class="section__item">
+                    <strong class="section__strong">Highschool Graduate</strong>
+                    <br>
+                    Lideta Catholic Cathedral School, 2021
+                </li>
+                <li class="section__item">
+                    <strong class="section__strong">Software Engineer Student</strong>
+                    <br>
+                    Addis Ababa Institute of Technology, 2022-present
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2 class="section__title">Work Experience</h2>
+            <ul class="section__list">
+                <li class="section__item">
+                    <strong class="section__strong">Web Developer</strong>
+                    <br>
+                    Africa 101, Addis Ababa, July 2020 - May 2022
+                    <br>
+                    - Developed and maintained company websites using HTML, CSS, and JavaScript.
+                    <br>
+                    - Collaborated with cross-functional teams to implement new features and improve user experience.
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2 class="section__title">Skills</h2>
+            <ul class="section__list">
+                <li class="section__item">HTML5, CSS3, JavaScript</li>
+                <li class="section__item">Responsive Web Design</li>
+                <li class="section__item">UI/UX Design</li>
+                <li class="section__item">Version Control (Git)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2 class="section__title">Projects</h2>
+            <ul class="section__list">
+                <li class="section__item">
+                    <strong class="section__strong">Digitalized Idir</strong>
+                    <br>
+                    It is a web-based platform created to revolutionize the Ethiopian traditional Idir system. I worked on the front-end.
+                </li>
+                <li class="section__item">
+                    <strong class="section__strong">Med Hub</strong>
+                    <br>
+                    It is a project developed to create an adequate categorization of patients' medications. I was the lead project manager.
+                </li>
+            </ul>
+        </section>
+    </main> 
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="https://www.bing.com/ck/a?!&&p=3866df0912b77594JmltdHM9MTcwMTA0MzIwMCZpZ3VpZD0yNzUxMjZmOS04MmUzLTYwYzItMmQzZC0zNDljODMwODYxM2EmaW5zaWQ9NTE5Mg&ptn=3&ver=2&hsh=3&fclid=275126f9-82e3-60c2-2d3d-349c8308613a&psq=twitter&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS8&ntb=1" class="footer__link">Twitter</a></li>
+                <li class="footer__item"><a href="https://www.bing.com/ck/a?!&&p=a4a9a67eee697b44JmltdHM9MTcwMTA0MzIwMCZpZ3VpZD0yNzUxMjZmOS04MmUzLTYwYzItMmQzZC0zNDljODMwODYxM2EmaW5zaWQ9NTE5Mw&ptn=3&ver=2&hsh=3&fclid=275126f9-82e3-60c2-2d3d-349c8308613a&psq=instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8_aGw9ZW4&ntb=1" class="footer__link">Instagram</a></li>
+                <li class="footer__item"><a href="https://www.bing.com/ck/a?!&&p=6281f24ab0b44fdeJmltdHM9MTcwMTA0MzIwMCZpZ3VpZD0yNzUxMjZmOS04MmUzLTYwYzItMmQzZC0zNDljODMwODYxM2EmaW5zaWQ9NTE5MQ&ptn=3&ver=2&hsh=3&fclid=275126f9-82e3-60c2-2d3d-349c8308613a&psq=linkedin&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tLw&ntb=1" class="footer__link">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <p class="footer__copyright">All rights reserved.</p>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.querySelector(".nav__list");
+            if (x.style.display === "block" || window.getComputedStyle(x).display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

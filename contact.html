@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_me</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="Hobbies.html" class="nav__link">Hobbies</a></li>
+                <li class="nav__item"><a href="Travel.html" class="nav__link">Travel</a></li>
+                <li class="nav__item"><a href="Resume.html" class="nav__link">Resume</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contact_me</a></li>
+            </ul>
+        </nav>
+        </div>
+        <a href="javascript:void(0);" class="nav-icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </div>
+    <header class="header">
+        <h1 class="header__title">Contact Me</h1>
+    </header>
+
+    <main class="main forms">
+        <form action="mailto:fenetmulugeta13@gmail.com" method="post" enctype="text/plain" class="form">
+            <label for="name" class="form__label">Your Name:</label>
+            <input type="text" id="name" name="name" required class="form__input">
+
+            <label for="email" class="form__label">Your Email:</label>
+            <input type="email" id="email" name="email" required class="form__input">
+
+            <label for="message" class="form__label">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required class="form__textarea"></textarea>
+
+            <input type="submit" value="Send Message" class="form__submit">
+        </form>
+    </main>
+    
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="https://www.bing.com/ck/a?!&&p=3866df0912b77594JmltdHM9MTcwMTA0MzIwMCZpZ3VpZD0yNzUxMjZmOS04MmUzLTYwYzItMmQzZC0zNDljODMwODYxM2EmaW5zaWQ9NTE5Mg&ptn=3&ver=2&hsh=3&fclid=275126f9-82e3-60c2-2d3d-349c8308613a&psq=twitter&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS8&ntb=1" class="footer__link">Twitter</a></li>
+                <li class="footer__item"><a href="https://www.bing.com/ck/a?!&&p=a4a9a67eee697b44JmltdHM9MTcwMTA0MzIwMCZpZ3U9MTY5NzA4ODc1OCZpZ3VpZD0yNzUxMjZmOS04MmUzLTYwYzItMmQzZC0zNDljODMwODYxM2EmaW5zaWQ9NTE5Mw&ptn=3&ver=2&hsh=3&fclid=275126f9-82e3-60c2-2d3d-349c8308613a&psq=instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8_aGw9ZW4&ntb=1" class="footer__link">Instagram</a></li>
+                <li class="footer__item"><a href="https://www.bing.com/ck/a?!&&p=6281f24ab0b44fdeJmltdHM9MTcwMTA0MzIwMCZpZ3VpZD0yNzUxMjZmOS04MmUzLTYwYzItMmQzZC0zNDljODMwODYxM2EmaW5zaWQ9NTE5MQ&ptn=3&ver=2&hsh=3&fclid=275126f9-82e3-60c2-2d3d-349c8308613a&psq=linkedin&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tLw&ntb=1" class="footer__link">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <p class="footer__copyright">All rights reserved.</p>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.querySelector(".nav__list");
+            if (x.style.display === "block" || window.getComputedStyle(x).display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
