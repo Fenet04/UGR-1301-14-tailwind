@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenet Mulugeta</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+
+    <nav class=" bg-green-300 p-4">
+        <div class="container mx-auto flex flex-col md:flex-row place-content-end ">
+            <a href="#" class="text-white text-2xl md:hidden absolute top-4 right-4" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <div id="navbarBasicExample" class="hidden md:flex ">
+                <a href="Hobbies.html" class="text-white hover:text-gray-300 px-4 py-2 block md:inline-block md:mx-2">Hobbies</a>
+                <a href="Travel.html" class="text-white hover:text-gray-300 px-4 py-2 block md:inline-block md:mx-2">Travel</a>
+                <a href="Resume.html" class="text-white hover:text-gray-300 px-4 py-2 block md:inline-block md:mx-2">Resume</a>
+                <a href="contact.html" class="text-white hover:text-gray-300 px-4 py-2 block md:inline-block md:mx-2">Contact_me</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-green-300 py-12">
+        <div class="container mx-auto text-center">
+            <figure class="mb-4">
+                <img src="../src/images/profilePicture.jpg" alt="picture of Fenet" class="rounded-full w-32 h-32 mx-auto">
+            </figure>
+            <h1 class="text-4xl font-bold mb-4">Hello, I'm Fenet Mulugeta</h1>
+            <h2 class="text-2xl font-semibold mb-4">Software Engineer</h2>
+        </div>
+    </section>
+
+    <section class="bg-green-50 py-12">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold mb-4">My Specialities</h2>
+                <p class="text-gray-700">
+                    As a dedicated web developer, my expertise lies in crafting dynamic and visually appealing websites. These include front-end web development, web accessibility, UI design, and the like.
+                </p>
+            </div>
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold mb-4">Silicon Valley</h2>
+                <p class="text-gray-700">
+                    In addition to my passion for web development, I have a keen interest in the tech industry and its vibrant culture. One of my favorite pastimes is indulging in tech-related shows, and one series that I particularly love watching is "Silicon Valley."
+                    "Silicon Valley" captures the essence of the tech world with its humor and satirical take on startup life in the heart of the technology hub.
+                </p>
+            </div>
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold mb-4">Pinterest</h2>
+                <p class="text-gray-700">
+                    Beyond the world of coding and development, one of my favorite online platforms that I find both visually inspiring and creatively stimulating is Pinterest. I have a genuine love for exploring the vast and diverse content that Pinterest has to offer.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-green-300 text-grey py-4">
+        <div class="container mx-auto text-center">
+            <p>
+                <a href="https://www.bing.com/ck/a?!&&p=3866df0912b77594JmltdHM9MTcwMTA0MzIwMCZpZ3U9TGludXg&fclid=275126f9-82e3-60c2-2d3d-349c8308613a&psq=twitter&u=aHR0cHM6Ly90d2l0dGVyLmNvbS8&ntb=1" class="text-white hover:text-gray-300 px-4">Twitter</a> |
+                <a href="https://www.bing.com/ck/a?!&&p=a4a9a67eee697b44JmltdHM9MTcwMTA0MzIwMCZpZ3U9TGludXg&fclid=275126f9-82e3-60c2-2d3d-349c8308613a&psq=instagram&u=aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8_aGw9ZW4&ntb=1" class="text-white hover:text-gray-300 px-4">Instagram</a> |
+                <a href="https://www.bing.com/ck/a?!&&p=6281f24ab0b44fdeJmltdHM9MTcwMTA0MzIwMCZpZ3U9TGludXg&fclid=275126f9-82e3-60c2-2d3d-349c8308613a&psq=linkedin&u=aHR0cHM6Ly93d3cubGlua2VkaW4uY29tLw&ntb=1" class="text-white hover:text-gray-300 px-4">LinkedIn</a>
+            </p>
+            <p>&copy; 2023 Fenet Mulugeta. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbarBasicExample");
+            x.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
